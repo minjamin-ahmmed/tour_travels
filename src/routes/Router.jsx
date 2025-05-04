@@ -3,6 +3,8 @@ import Layout from "../Layout/Layout";
 import State from "../Pages/UseState/State";
 import Practice from "../Pages/Practice/Practice";
 import Faraway from "../Pages/FarAway/Faraway";
+import Flashcard from "../Pages/FlashCard/Flashcard";
+import TabSlider from "../Pages/TabSlider/TabSlider";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: "/faraway",
         element: <Faraway />,
+      },
+      {
+        path: "/flashcard",
+        element: <Flashcard />,
+      },
+      {
+        path: "/slider-tab",
+        element: <TabSlider />,
       },
     ],
   },

@@ -24,8 +24,11 @@ const Navbar = () => {
             <a href="/faraway" className="text-gray-600 hover:text-blue-600">
               Far-away
             </a>
-            <a href="/contact" className="text-gray-600 hover:text-blue-600">
-              Contact
+            <a href="/flashcard" className="text-gray-600 hover:text-blue-600">
+              FlashCard
+            </a>
+            <a href="/slider-tab" className="text-gray-600 hover:text-blue-600">
+              Slider Tab
             </a>
           </div>
 
